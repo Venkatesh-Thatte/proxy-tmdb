@@ -3,7 +3,7 @@ const fetch = require("node-fetch");
 module.exports = async (req, res) => {
   const allowedOrigins = [
     "http://localhost:5173",
-    // "https://your-frontend.vercel.app"
+    "https://movie-app-tau-orcin.vercel.app/"
   ];
 
   const origin = req.headers.origin;
